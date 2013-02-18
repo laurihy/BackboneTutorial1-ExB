@@ -1,6 +1,6 @@
 var PoemView = Backbone.View.extend({
   render: function() {
-    this.$el.html(poem);
+    this.$el.html(Handlebars.templates.poem());
     return this;
   }
 });
